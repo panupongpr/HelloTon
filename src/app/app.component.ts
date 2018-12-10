@@ -13,14 +13,23 @@ export class AppComponent implements OnInit{
 
   private myTitle: string; //Demo Explicit variable Type String
   private myColor: string;
+  private myNumber;
+  private mySize; string;
 
   constructor() {}
 
   ngOnInit(): void {
     
    this.myTitle = "Doramon";
-   this.myColor = '#FF0000'
+   this.myColor = '#FF0000';
+   this.myNumber=0;
+   this.mySize = '60px'
 
+  }
+
+  testClick(){
+    console.log('you click Test')
+    this.myNumber +=1;
   }
 
 
