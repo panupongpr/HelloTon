@@ -11,17 +11,17 @@ export class AppComponent implements OnInit{
 
   // Explicit
 
-  private myTitle: string; //Demo Explicit variable Type String
-  private myColor: string;
-  private myNumber;
-  private mySize; string;
+  myTitle: string; //Demo Explicit variable Type String
+  myColor: string;
+  myNumber;
+  mySize; string;
 
   constructor() {}
 
   ngOnInit(): void {
     
    this.myTitle = "Doramon";
-   this.myColor = '#FF0000';
+   this.myColor = '#FFE000';
    this.myNumber=0;
    this.mySize = '60px'
 
